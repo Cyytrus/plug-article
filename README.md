@@ -12,7 +12,7 @@ após isso, deve-se entrar no diretório por meio do comando
 
     $ cd plug_example
 
-dentro do projeto, é necessário inserir a lib [plugcowboy](https://github.com/elixir-plug/plug_cowboy) que será responsável por gerenciar nosso servidor web
+dentro do projeto e no arquivo `mix.exs`, é necessário inserir a lib [plugcowboy](https://github.com/elixir-plug/plug_cowboy) que será responsável por gerenciar nosso servidor web
 
 ```Elixir
   defp deps do
@@ -64,7 +64,7 @@ Na função *call/2*, serão passados os parâmetros da connection e as options 
 
 Após tudo isso, sera retornada uma resposta por meio do pattern matching com a connection, a resposta HTTP (esperado um 200 (OK)), juntamente com as opções antes coletadas em *init/1*
 
-## Terceira parte,
+## Terceiro passo
 
 Para executar o programa e ver se o mesmo foi feito corretamente, é necessária a compilação por meio do comando
 
