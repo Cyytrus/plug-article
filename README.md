@@ -14,7 +14,6 @@ após isso, deve-se entrar no diretório por meio do comando
 
 dentro do projeto e no arquivo `mix.exs`, é necessário inserir a lib [plugcowboy](https://github.com/elixir-plug/plug_cowboy) que será responsável por gerenciar nosso servidor web
 
-
 ```Elixir
   defp deps do
     [
